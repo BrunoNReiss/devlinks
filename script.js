@@ -1,4 +1,5 @@
 function toggleMode(){
+    //Variavel que armazena o html e muda a classe do html pra light
     const html = document.documentElement
     html.classList.toggle('light')
 
@@ -12,5 +13,7 @@ function toggleMode(){
     } else {
     //se tiver um light mode, manter a imagem normal
     img.setAttribute('src', './assets/avatar.png')
-    }
+
 }
+}
+
